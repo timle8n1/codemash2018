@@ -1,0 +1,6 @@
+framework module Pods_CodeMashCNNDemo {
+  umbrella header "Pods-CodeMashCNNDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
