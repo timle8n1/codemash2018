@@ -12,8 +12,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="CourierNew.ttf">
-            <string>CourierNewPSMT</string>
+        <array key="CourierNewBold.ttf">
+            <string>CourierNewPS-BoldMT</string>
         </array>
     </customFonts>
     <scenes>
@@ -45,90 +45,35 @@
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zVY-bY-8du">
-                                <rect key="frame" x="271.5" y="394" width="98.5" height="268"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.6989565855704698" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ixt-jQ-beR">
-                                <rect key="frame" x="276.5" y="399" width="88.5" height="258"/>
+                                <rect key="frame" x="253" y="545" width="112" height="112"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0: 100%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JxZ-sS-R8G">
-                                        <rect key="frame" x="0.0" y="0.0" width="88.5" height="24"/>
-                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1: 0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ojt-M4-rZC">
-                                        <rect key="frame" x="0.0" y="26" width="63.5" height="24"/>
-                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2: 0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91i-I0-0Tq">
-                                        <rect key="frame" x="0.0" y="52" width="63.5" height="24"/>
-                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3: 0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45N-rX-FWo">
-                                        <rect key="frame" x="0.0" y="78" width="63.5" height="24"/>
-                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4: 0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGu-bc-162">
-                                        <rect key="frame" x="0.0" y="104" width="63.5" height="24"/>
-                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5: 0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M1I-ZZ-AjL">
-                                        <rect key="frame" x="0.0" y="130" width="63.5" height="24"/>
-                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6: 0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDY-aE-aRg">
-                                        <rect key="frame" x="0.0" y="156" width="63.5" height="24"/>
-                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7: 0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lbu-k1-DcZ">
-                                        <rect key="frame" x="0.0" y="182" width="63.5" height="24"/>
-                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8: 0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ppn-g7-9QK">
-                                        <rect key="frame" x="0.0" y="208" width="63.5" height="24"/>
-                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9: 0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ux6-4z-X2x">
-                                        <rect key="frame" x="0.0" y="234" width="63.5" height="24"/>
-                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ca7-ux-Gpd">
+                                        <rect key="frame" x="35" y="15" width="43.5" height="82"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="72"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                            </stackView>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.6989565855704698" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="112" id="7KM-vS-9LG"/>
+                                    <constraint firstItem="ca7-ux-Gpd" firstAttribute="centerY" secondItem="zVY-bY-8du" secondAttribute="centerY" id="Mtl-SB-41m"/>
+                                    <constraint firstItem="ca7-ux-Gpd" firstAttribute="centerX" secondItem="zVY-bY-8du" secondAttribute="centerX" id="hTo-WV-ad2"/>
+                                    <constraint firstAttribute="height" constant="112" id="qDq-6p-Kcr"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="zVY-bY-8du" firstAttribute="height" secondItem="ixt-jQ-beR" secondAttribute="height" constant="10" id="9Wr-s4-GDZ"/>
                             <constraint firstAttribute="trailing" secondItem="Cxv-dj-ySz" secondAttribute="trailing" id="9pI-2Q-kpF"/>
                             <constraint firstAttribute="bottom" secondItem="aFo-cw-1Vk" secondAttribute="bottom" constant="10" id="Bb1-ea-a0I"/>
                             <constraint firstAttribute="bottom" secondItem="Cxv-dj-ySz" secondAttribute="bottom" id="BdP-kN-AUI"/>
                             <constraint firstItem="aFo-cw-1Vk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="Bpn-Us-dMZ"/>
-                            <constraint firstItem="zVY-bY-8du" firstAttribute="width" secondItem="ixt-jQ-beR" secondAttribute="width" constant="10" id="G7X-Nn-ikA"/>
+                            <constraint firstAttribute="trailing" secondItem="zVY-bY-8du" secondAttribute="trailing" constant="10" id="GOk-e1-UpR"/>
                             <constraint firstItem="RMC-rS-Ocl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerXWithinMargins" id="Liy-qt-5zI"/>
-                            <constraint firstAttribute="trailing" secondItem="ixt-jQ-beR" secondAttribute="trailing" constant="10" id="YAF-4P-T4b"/>
-                            <constraint firstItem="zVY-bY-8du" firstAttribute="centerY" secondItem="ixt-jQ-beR" secondAttribute="centerY" id="eeh-oe-Vvf"/>
+                            <constraint firstAttribute="bottom" secondItem="zVY-bY-8du" secondAttribute="bottom" constant="10" id="em3-yG-OLQ"/>
                             <constraint firstItem="RMC-rS-Ocl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerYWithinMargins" id="f6w-wV-Z3f"/>
-                            <constraint firstAttribute="bottom" secondItem="ixt-jQ-beR" secondAttribute="bottom" constant="10" id="g1f-MG-Opm"/>
                             <constraint firstItem="Cxv-dj-ySz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="q1z-6k-ILv"/>
-                            <constraint firstItem="zVY-bY-8du" firstAttribute="centerX" secondItem="ixt-jQ-beR" secondAttribute="centerX" id="rHp-cK-hpb"/>
                             <constraint firstItem="Cxv-dj-ySz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zI7-fU-ua2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -136,17 +81,8 @@
                     <connections>
                         <outlet property="boundingBox" destination="RMC-rS-Ocl" id="0IP-SD-n4A"/>
                         <outlet property="captureView" destination="Cxv-dj-ySz" id="MH9-7N-D5y"/>
+                        <outlet property="digitLabel" destination="ca7-ux-Gpd" id="IUm-aT-LzD"/>
                         <outlet property="neuralInputImageView" destination="aFo-cw-1Vk" id="jax-C5-JEp"/>
-                        <outletCollection property="confidenceLabels" destination="JxZ-sS-R8G" collectionClass="NSMutableArray" id="vp0-d1-KKb"/>
-                        <outletCollection property="confidenceLabels" destination="ojt-M4-rZC" collectionClass="NSMutableArray" id="ZGd-iU-oA1"/>
-                        <outletCollection property="confidenceLabels" destination="91i-I0-0Tq" collectionClass="NSMutableArray" id="wBd-TM-8PP"/>
-                        <outletCollection property="confidenceLabels" destination="45N-rX-FWo" collectionClass="NSMutableArray" id="LON-wg-qnm"/>
-                        <outletCollection property="confidenceLabels" destination="KGu-bc-162" collectionClass="NSMutableArray" id="Tna-6d-a8X"/>
-                        <outletCollection property="confidenceLabels" destination="M1I-ZZ-AjL" collectionClass="NSMutableArray" id="Db5-hV-KtX"/>
-                        <outletCollection property="confidenceLabels" destination="PDY-aE-aRg" collectionClass="NSMutableArray" id="bey-z9-dtz"/>
-                        <outletCollection property="confidenceLabels" destination="Lbu-k1-DcZ" collectionClass="NSMutableArray" id="Ce4-qY-rmo"/>
-                        <outletCollection property="confidenceLabels" destination="Ppn-g7-9QK" collectionClass="NSMutableArray" id="upa-o9-5oT"/>
-                        <outletCollection property="confidenceLabels" destination="Ux6-4z-X2x" collectionClass="NSMutableArray" id="ZaG-QB-noI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

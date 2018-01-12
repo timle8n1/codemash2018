@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet private var boundingBox: UIView!
     @IBOutlet private var neuralInputImageView: UIImageView!
     
-    @IBOutlet var confidenceLabels: [UILabel]!
+    @IBOutlet var digitLabel: UILabel!
     
     
     var session: AVCaptureSession?
@@ -207,10 +207,20 @@ extension ViewController {
             
             if let confidenceArray = observations[0].featureValue.multiArrayValue {
                 
+                var digitIndex = 0
+                var score = Float(0.0)
+                
                 for i in 0...9 {
-                    let displayConfidence = String(format:"%.0f", confidenceArray[i].floatValue * 100.0)
-                    self.confidenceLabels[i].text = "\(i): \(displayConfidence)%"
+                    
+                    let displayConfidence = confidenceArray[i].floatValue
+                    
+                    if displayConfidence > score {
+                        digitIndex = i
+                        score = displayConfidence
+                    }
                 }
+                
+                self.digitLabel.text = "\(digitIndex)"
             }
         }
     }
